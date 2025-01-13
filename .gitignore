@@ -1,0 +1,49 @@
+# Ignore Visual Studio-related files
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build and publish outputs
+bin/
+obj/
+
+# ASP.NET Core generated files
+wwwroot/
+
+# Logs
+*.log
+*.nlog
+*.serilog
+*.trace.log
+
+# Environment files
+*.env
+*.env.*
+
+# Backup files
+*.bak
+*.swp
+
+# MacOS files
+.DS_Store
+
+# Frontend (Next.js or similar) specific
+front/node_modules/
+front/.next/
+front/out/
+
+# Frontend environment variables
+front/.env
+front/.env.local
+front/.env.*.local
+
+# Coverage directories for testing
+coverage/
+front/coverage/
+Project.tests/coverage/
+
+# Other IDE settings
+*.DotSettings.user
